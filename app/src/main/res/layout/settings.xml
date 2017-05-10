@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.ChillActivity">
+
+    <ImageView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_margin="8dp"
+        android:src="@drawable/list_icon" />
+
+    <TextView
+        style="@style/ExplanatoryTextView"
+        android:text="@string/activity_Settings_explanation" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/Blues"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Blues" />
+
+            <CheckBox
+                android:id="@+id/Classical"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Classical" />
+
+            <CheckBox
+                android:id="@+id/Country"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Country" />
+
+            <CheckBox
+                android:id="@+id/Dance"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Dance" />
+
+            <CheckBox
+                android:id="@+id/Electro"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Electro" />
+
+            <CheckBox
+                android:id="@+id/Funk"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Funk" />
+
+            <CheckBox
+                android:id="@+id/Grunge"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Grunge" />
+
+            <CheckBox
+                android:id="@+id/Healing"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Healing" />
+
+            <CheckBox
+                android:id="@+id/Jazz"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Jazz" />
+
+            <CheckBox
+                android:id="@+id/Meditation"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Meditation" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/Metal"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Metal" />
+
+            <CheckBox
+                android:id="@+id/Opera"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Opera" />
+
+            <CheckBox
+                android:id="@+id/Pop"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Pop" />
+
+            <CheckBox
+                android:id="@+id/Punk"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Punk" />
+
+            <CheckBox
+                android:id="@+id/Reggae"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Reggae" />
+
+            <CheckBox
+                android:id="@+id/Rock"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Rock" />
+
+            <CheckBox
+                android:id="@+id/Ska"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Ska" />
+
+            <CheckBox
+                android:id="@+id/Soul"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Soul" />
+
+            <CheckBox
+                android:id="@+id/Soundtrack"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Soundtrack" />
+
+            <CheckBox
+                android:id="@+id/Techno"
+                style="@style/CheckBoxStyle"
+                android:text="@string/Techno" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

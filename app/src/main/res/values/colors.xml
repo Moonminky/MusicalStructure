@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#ff5252</color>
+    <color name="category_focus">#d7ccc8</color>
+    <color name="category_party">#ff80ab</color>
+    <color name="category_workout">#90caf9</color>
+    <color name="category_chill">#26a69a</color>
+    <color name="category_sleep">#90a4ae</color>
+    <color name="category_wakeUp">#ffd600</color>
+</resources>

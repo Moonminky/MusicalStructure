@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Musical Structure</string>
+
+    <!-- Strings for category names -->
+    <string name="category_focus">Focus</string>
+    <string name="category_party">Party</string>
+    <string name="category_workout">Workout</string>
+    <string name="category_chill">Chill</string>
+    <string name="category_sleep">Sleep</string>
+    <string name="category_wakeUp">Wake up</string>
+
+    <!-- Strings for Activity Labels -->
+    <string name="activity_MoodPicker">Mood Picker</string>
+    <string name="activity_focus">Player: Focus</string>
+    <string name="activity_party">Player: Party</string>
+    <string name="activity_workout">Player: Workout</string>
+    <string name="activity_chill">Player: Chill</string>
+    <string name="activity_sleep">Player: Sleep</string>
+    <string name="activity_wakeUp">Player: Wake up</string>
+    <string name="activity_settings">Settings</string>
+
+    <!-- Strings for Song names -->
+    <string name="song_focus">"Study music Alpha waves"</string>
+    <string name="song_party">"Higher Place"</string>
+    <string name="song_workout">"Till I Collapse"</string>
+    <string name="song_chill">"Put Your Records On"</string>
+    <string name="song_sleep">"Sleep Music Delta Waves"</string>
+    <string name="song_wakeUp">"Best Day Of My Life"</string>
+
+    <!-- Strings for artist -->
+    <string name="artist_focus">Just Instrumental Music</string>
+    <string name="artist_party">Dimitri Vegas &amp; Like Mike feat. Ne-Yo</string>
+    <string name="artist_workout">Eminem</string>
+    <string name="artist_chill">Corinne Bailey Rae</string>
+    <string name="artist_sleep">meditationrelaxclub</string>
+    <string name="artist_wakeUp">American Authors</string>
+
+    <!-- Strings for explanatory TextViews -->
+    <string name="activity_MoodPicker_explanation">The user can pick their "mood", as in, the type of situation they need music for. This requires an underlying music database to have songs flagged with the fitting mood. </string>
+    <string name="activity_Player_explanation">The user can switch between songs (forward, reverse), pause, play and stop the player. Song and artist names are displayed, so that information should also be part of the database. On the bottom the user can select to go back to the list or change to settings.</string>
+    <string name="activity_Settings_explanation">The user can unselect genres, if they don\'t want to hear that type of music. This requires the music database to have songs flagged with the genre.</string>
+
+    <!-- Strings for Genres -->
+    <string name="Blues">Blues</string>
+    <string name="Classical">Classical</string>
+    <string name="Country">Country</string>
+    <string name="Dance">Dance</string>
+    <string name="Electro">Electro</string>
+    <string name="Funk">Funk</string>
+    <string name="Grunge">Grunge</string>
+    <string name="Healing">Healing</string>
+    <string name="Jazz">Jazz</string>
+    <string name="Meditation">Meditation</string>
+    <string name="Metal">Metal</string>
+    <string name="Opera">Opera</string>
+    <string name="Pop">Pop</string>
+    <string name="Punk">Punk</string>
+    <string name="Reggae">Reggae</string>
+    <string name="Rock">Rock</string>
+    <string name="Ska">Ska</string>
+    <string name="Soul">Soul</string>
+    <string name="Soundtrack">Soundtrack</string>
+    <string name="Techno">Techno</string>
+</resources>

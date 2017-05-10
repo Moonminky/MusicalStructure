@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <TextView
+        style="@style/ExplanatoryTextView"
+        android:text="@string/activity_MoodPicker_explanation"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/focus"
+                style="@style/CategoryStyle"
+                android:background="@color/category_focus"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/CategoryImageView"
+                    android:src="@drawable/focus" />
+
+                <TextView
+                    style="@style/CategoryTextView"
+                    android:background="@color/category_focus"
+                    android:text="@string/category_focus" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/party"
+                style="@style/CategoryStyle"
+                android:background="@color/category_party"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/CategoryImageView"
+                    android:src="@drawable/party" />
+
+                <TextView
+                    style="@style/CategoryTextView"
+                    android:text="@string/category_party" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/workout"
+                style="@style/CategoryStyle"
+                android:background="@color/category_workout"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/CategoryImageView"
+                    android:src="@drawable/workout" />
+
+                <TextView
+                    style="@style/CategoryTextView"
+                    android:text="@string/category_workout" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/chill"
+                style="@style/CategoryStyle"
+                android:background="@color/category_chill"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/CategoryImageView"
+                    android:src="@drawable/chill" />
+
+                <TextView
+                    style="@style/CategoryTextView"
+                    android:text="@string/category_chill" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/sleep"
+                style="@style/CategoryStyle"
+                android:background="@color/category_sleep">
+
+                <ImageView
+                    style="@style/CategoryImageView"
+                    android:src="@drawable/sleep" />
+
+                <TextView
+                    style="@style/CategoryTextView"
+                    android:text="@string/category_sleep" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wakeUp"
+                style="@style/CategoryStyle"
+                android:background="@color/category_wakeUp">
+
+                <ImageView
+                    style="@style/CategoryImageView"
+                    android:src="@drawable/wakeup" />
+
+                <TextView
+                    style="@style/CategoryTextView"
+                    android:text="@string/category_wakeUp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
